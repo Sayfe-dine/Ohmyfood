@@ -1,0 +1,34 @@
+.function{
+    display: flex;
+border: 2px solid;
+height: 350px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.function__choice{
+    
+    border-radius: 15px;
+    -webkit-box-shadow: -4px 2px 15px 0px #000000; 
+box-shadow: -4px 2px 15px 0px #000000;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+width: 95%;
+
+height: 75px;
+margin-top: 15px;
+}
+
+.function__choice .fas{
+width: 10%;
+background-color: red;
+}
+.function__choice__number{
+width: 10%;
+background-color: green;
+}
+.function__choice__title{
+width:80%
+}
